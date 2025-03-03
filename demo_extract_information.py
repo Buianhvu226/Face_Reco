@@ -1,54 +1,34 @@
-import google.generativeai as genai
+from google import genai
 import os
 
-# Thiết lập khóa API từ biến môi trường
-genai.configure(api_key=os.getenv("API_KEY"))
+client = genai.Client(api_key="AIzaSyD-Nw9rDFIa5mLgtjrPvlYHeW0Uh4i3jd8")
 
 def analyze_child_response_gemini(response_text, missing_persons):
-    model = genai.GenerativeModel('gemini-pro')
-
-    # Đơn giản hóa prompt để tránh trigger safety filters
-    prompt = f"""
-    Phân tích câu trả lời: "{response_text}"
-    Nhiệm vụ:
-    1. Tìm thông tin có thể có: tên, tên phụ huynh, địa chỉ hoặc trường học,...
-    2. So sánh với danh sách: {missing_persons}
-    3. Kết quả: Chỉ cần đưa ra tên người phù hợp hoặc "Không tìm thấy"
-
-    Ví dụ: "Lê Như Bảo" hoặc "Không tìm thấy"
-    """
-
     try:
-        response = model.generate_content(
-            prompt,
-            generation_config=genai.types.GenerationConfig(
-                temperature=0.2,
-                max_output_tokens=150
-            ),
-            # Điều chỉnh safety settings
-            safety_settings={
-                genai.types.HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: genai.types.HarmBlockThreshold.BLOCK_NONE,
-                genai.types.HarmCategory.HARM_CATEGORY_HARASSMENT: genai.types.HarmBlockThreshold.BLOCK_NONE,
-                genai.types.HarmCategory.HARM_CATEGORY_HATE_SPEECH: genai.types.HarmBlockThreshold.BLOCK_NONE,
-                genai.types.HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: genai.types.HarmBlockThreshold.BLOCK_NONE
-            }
+        # Đơn giản hóa prompt
+        prompt = f"""
+        Phân tích câu trả lời: "{response_text}"
+        Nhiệm vụ:
+        1. Tìm thông tin có thể có: tên, tên phụ huynh, địa chỉ hoặc trường học,...
+        2. So sánh với danh sách: {missing_persons}
+        3. Kết quả: Chỉ cần đưa ra tên người phù hợp hoặc "Không tìm thấy". Không cần giải thích chi tiết.
+
+        Ví dụ câu trả lời chỉ cần là: "Lê Như Bảo" hoặc "Không tìm thấy"
+        """
+
+        response = client.models.generate_content(
+            model="gemini-2.0-flash",
+            contents=prompt
         )
         
-        # Xử lý response an toàn hơn
-        if not response.candidates:
-            return "Không tìm thấy kết quả"
-            
-        if response.candidates[0].content.parts:
-            return response.candidates[0].content.parts[0].text
-        
-        return "Không tìm thấy kết quả"
+        return response.text if response.text else "Không tìm thấy kết quả"
             
     except Exception as e:
         print(f"Lỗi xử lý: {str(e)}")
         return "Không tìm thấy kết quả"
 
-# Test với câu trả lời đơn giản
-child_response = "Cháu cao tầm 1m37"
+# Test
+child_response = "Cháu mất tích hôm chiều 14/02/2025"
 missing_persons_data = [
     {
         "name": "Nguyễn Văn Nam",
