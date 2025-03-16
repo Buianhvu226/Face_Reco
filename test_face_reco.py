@@ -153,7 +153,7 @@ import queue
 # 📌 Thư mục chứa ảnh đã biết
 KNOWN_FACES_FOLDER = "F:\\Face_Reco\\know_face"
 # UNKNOWN_IMAGE_PATH = "F:\\Face_Reco\\unknow_face\\uf10.png"
-UNKNOWN_IMAGE_PATH = "F:\\Face_Reco\\unknow_face\\uf41.jpg"
+UNKNOWN_IMAGE_PATH = "F:\\Face_Reco\\unknow_face\\uf42.jpg"
 ENCODINGS_FILE = "face_encodings.pkl"  # Lưu mã hóa khuôn mặt
 
 # 📌 Hàng đợi xử lý đa luồng

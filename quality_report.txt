@@ -1,262 +1,0 @@
-📄 BÁO CÁO CHẤT LƯỢNG ẢNH KHUÔN MẶT
-
-=== ẢNH ĐÃ BIẾT ===
-
-📷 aNam.jpg:
-  - ❌ Độ mờ cao (Laplacian: 13.8)
-
-📷 BichPhuong.jpg:
-  - ❌ Góc mặt lệch (22 độ)
-
-📷 CharliePuth.jpg:
-  - ❌ Khuôn mặt chiếm dưới 15% diện tích ảnh
-
-📷 Chipu.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 DatG.jpg:
-  - ❌ Ánh sáng chói (205.8/255)
-
-📷 DongNhi.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 DucPhuc.webp:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 Erik.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 Hau.jpg:
-  - ❌ Khuôn mặt chiếm dưới 15% diện tích ảnh
-
-📷 HieuT2.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 HoaiLam.jpg:
-  - ❌ Góc mặt lệch (-16 độ)
-
-📷 HoaiLinh.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 HungMasterD.webp:
-  - ❌ Góc mặt lệch (-23 độ)
-
-📷 HuongNhi.jpg:
-  - ❌ Góc mặt lệch (13 độ)
-  - ❌ Khuôn mặt chiếm dưới 15% diện tích ảnh
-
-📷 Ky.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 Me.jpg:
-  - ❌ Góc mặt lệch (-10 độ)
-  - ❌ Khuôn mặt chiếm dưới 15% diện tích ảnh
-
-📷 Midu.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 Mono.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 MyTam.webp:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 Ngoc.jpg:
-  - ❌ Khuôn mặt chiếm dưới 15% diện tích ảnh
-
-📷 Nhi.jpg:
-  - ❌ Khuôn mặt chiếm dưới 15% diện tích ảnh
-
-📷 Quyen.jpg:
-  - ❌ Khuôn mặt chiếm dưới 15% diện tích ảnh
-
-📷 SongLuan.jpeg:
-  - ❌ Góc mặt lệch (-21 độ)
-
-📷 SonTung.jpg:
-  - ❌ Góc mặt lệch (19 độ)
-
-📷 Su.jpg:
-  - ❌ Khuôn mặt chiếm dưới 15% diện tích ảnh
-
-📷 TayLorSwift.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 Thuc.jpg:
-  - ❌ Góc mặt lệch (-10 độ)
-
-📷 ThuyChi.jpg:
-  - ❌ Góc mặt lệch (-20 độ)
-
-📷 TocTien.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 Trump.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 TuanHung.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 TuanNgoc.jpg:
-  - ❌ Ánh sáng yếu (57.4/255)
-
-📷 Vu.jpg:
-  - ❌ Độ mờ cao (Laplacian: 10.7)
-  - ❌ Ánh sáng chói (216.0/255)
-
-=== ẢNH CHƯA BIẾT ===
-
-📷 TocTien.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 uf-Vu1.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 uf-Vu2.jpg:
-  - ❌ Có thể đang đeo kính
-
-📷 uf-Vu3.jpg:
-  - ❌ Không tìm thấy khuôn mặt
-
-📷 uf-Vu4.jpg:
-  - ❌ Không tìm thấy khuôn mặt
-
-📷 uf-Vu5.jpg:
-  - ❌ Không tìm thấy khuôn mặt
-
-📷 uf-Vu6.jpg:
-  - ❌ Độ mờ cao (Laplacian: 8.0)
-
-📷 uf1.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 uf10.png:
-  - ❌ Khuôn mặt chiếm dưới 15% diện tích ảnh
-
-📷 uf11.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 uf12.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 uf13.jpg:
-  - ❌ Góc mặt lệch (-18 độ)
-
-📷 uf14.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 uf15.jpg:
-  - ❌ Ánh sáng chói (222.8/255)
-
-📷 uf16.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 uf17.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 uf18.jpg:
-  - ❌ Độ tương phản thấp (25.7)
-
-📷 uf19.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 uf2.jpg:
-  - ❌ Khuôn mặt chiếm dưới 15% diện tích ảnh
-
-📷 uf20.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 uf21.jpg:
-  - ❌ Phát hiện nhiều khuôn mặt trong ảnh
-
-📷 uf22.jpg:
-  - ❌ Góc mặt lệch (13 độ)
-  - ❌ Khuôn mặt chiếm dưới 15% diện tích ảnh
-
-📷 uf23.jpg:
-  - ❌ Góc mặt lệch (-24 độ)
-  - ❌ Khuôn mặt chiếm dưới 15% diện tích ảnh
-
-📷 uf24.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 uf25.jpg:
-  - ❌ Độ mờ cao (Laplacian: 12.1)
-  - ❌ Ánh sáng yếu (37.9/255)
-  - ❌ Độ tương phản thấp (31.3)
-
-📷 uf26.jpg:
-  - ❌ Góc mặt lệch (14 độ)
-  - ❌ Khuôn mặt chiếm dưới 15% diện tích ảnh
-
-📷 uf27.JPG:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 uf28.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 uf29.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 uf3.jpg:
-  - ❌ Độ mờ cao (Laplacian: 7.3)
-
-📷 uf30.jpg:
-  - ❌ Góc mặt lệch (-27 độ)
-
-📷 uf31.jpg:
-  - ❌ Có thể đang đeo kính
-
-📷 uf32.jpg:
-  - ❌ Góc mặt lệch (17 độ)
-  - ❌ Khuôn mặt chiếm dưới 15% diện tích ảnh
-
-📷 uf33.jpg:
-  - ❌ Góc mặt lệch (15 độ)
-  - ❌ Khuôn mặt chiếm dưới 15% diện tích ảnh
-
-📷 uf34.jpg:
-  - ❌ Khuôn mặt chiếm dưới 15% diện tích ảnh
-
-📷 uf35.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 uf36.JPG:
-  - ❌ Ánh sáng chói (220.7/255)
-
-📷 uf37.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 uf38.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 uf39.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 uf4.jpg:
-  - ❌ Không tìm thấy khuôn mặt
-
-📷 uf40.jpg:
-  - ❌ Khuôn mặt chiếm dưới 15% diện tích ảnh
-
-📷 uf41.jpg:
-  - ❌ Góc mặt lệch (13 độ)
-  - ❌ Khuôn mặt chiếm dưới 15% diện tích ảnh
-
-📷 uf5.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 uf6.jpg:
-  - ❌ Khuôn mặt chiếm dưới 15% diện tích ảnh
-  - ❌ Ánh sáng yếu (60.0/255)
-  - ❌ Độ tương phản thấp (35.9)
-
-📷 uf7.jpg:
-  - ✅ Ảnh đạt chất lượng tốt
-
-📷 uf8.jpg:
-  - ❌ Góc mặt lệch (17 độ)
-  - ❌ Độ mờ cao (Laplacian: 14.9)
-
-📷 uf9.jpg:
-  - ❌ Phát hiện nhiều khuôn mặt trong ảnh
